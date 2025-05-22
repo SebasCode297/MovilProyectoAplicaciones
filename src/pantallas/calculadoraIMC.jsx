@@ -9,10 +9,10 @@ export const CalculadoraIMC = ()=>{
   return (
     <View style={styles.container}>
       <Text style={styles.headerText}>Calculadora IMC</Text>
-      <Text style={styles.texto2}>hola</Text>
+      <Text style={styles.texto2}>hola no sabes cuanto pesas y tienes una cita con el doctor ? tranquilo aqui con el programador lo sabras</Text>
 
-      <Image style={styles.imagen} source={{uri: "https://masqueprogramar.wordpress.com/wp-content/uploads/2017/03/formulaimc.png"}}/>
-      <Image style={styles.imagen} source={require('../../assets/icon.png')}/>
+      <Image style={styles.imagen} source={{uri: "https://aprenderaprogramar.com/images/phocagallery/Empleo/thumbs/phoca_thumb_l_33_programador_loco.jpg"}}/>
+    
 
       <TextInput onChangeText={(value)=>setPeso(value)} style={styles.textInput} keyboardType='numeric' placeholder='Ingrese su Peso(kg):'></TextInput>
       <TextInput onChangeText={(value)=>{
