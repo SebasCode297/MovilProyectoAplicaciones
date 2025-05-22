@@ -9,7 +9,7 @@ export const CalculadoraIMC = ()=>{
   return (
     <View style={styles.container}>
       <Text style={styles.headerText}>Calculadora IMC</Text>
-      <Text style={styles.texto2}>Bienvenido al programa para calcular su indice de masa corporal, la formula para calcularlo es: </Text>
+      <Text style={styles.texto2}>hola</Text>
 
       <Image style={styles.imagen} source={{uri: "https://masqueprogramar.wordpress.com/wp-content/uploads/2017/03/formulaimc.png"}}/>
       <Image style={styles.imagen} source={require('../../assets/icon.png')}/>
