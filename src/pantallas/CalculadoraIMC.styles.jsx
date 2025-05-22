@@ -1,93 +1,86 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
- container: {
+  container: {
     flex: 1,
-    backgroundColor: '#f8f9fa',  // Fondo casi blanco (más neutral)
+    backgroundColor: '#e3f2fd',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 16,
+    padding: 24,
   },
   imagen: {
-    width: 180,  // Más compacto
-    height: 90,
-    marginBottom: 20,
-    borderRadius: 8,  // Bordes cuadrados suavizados
-    borderWidth: 1,
-    borderColor: '#d1d1d1',  // Gris neutro
-    shadowColor: '#5c6bc0',  // Sombra morada
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
-    elevation: 6,
+    width: 220,
+    height: 110,
+    marginBottom: 30,
+    borderRadius: 16,
+    borderWidth: 1.5,
+    borderColor: '#90caf9',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 3,
   },
   textInput: {
-    width: '85%',  // Más estrecho
-    borderColor: '#9575cd',  // Morado pastel
-    borderWidth: 1.2,
-    borderRadius: 8,  // Forma más rectangular
-    paddingVertical: 10,
-    paddingHorizontal: 12,
-    marginVertical: 8,
+    width: '100%',
+    borderColor: '#64b5f6',
+    borderWidth: 1.8,
+    borderRadius: 14,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    marginVertical: 10,
     backgroundColor: '#ffffff',
-    fontSize: 14,  // Más pequeño
-    color: '#4527a0',  // Morado oscuro
-    shadowColor: '#b39ddb',
-    shadowOffset: { width: 0, height: 0 },  // Sombra difusa
-    shadowOpacity: 0.2,
-    shadowRadius: 3,
+    fontSize: 16,
+    color: '#0d47a1',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
     elevation: 2,
   },
   button: {
-    backgroundColor: '#673ab7',  // Morado intenso
-    paddingVertical: 12,
-    paddingHorizontal: 32,
-    borderRadius: 8,  // Rectangular con bordes suaves
-    marginTop: 20,
-    shadowColor: '#311b92',
+    backgroundColor: '#1e88e5',
+    paddingVertical: 14,
+    paddingHorizontal: 40,
+    borderRadius: 20,
+    marginTop: 24,
+    shadowColor: '#000',
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.4,
-    shadowRadius: 8,
-    elevation: 8,
+    shadowOpacity: 0.15,
+    shadowRadius: 6,
+    elevation: 5,
   },
   buttonText: {
     color: '#ffffff',
-    fontSize: 14,
-    fontWeight: '500',
+    fontSize: 17,
+    fontWeight: '600',
     textAlign: 'center',
-    letterSpacing: 0.5,  // Menos espaciado
+    textTransform: 'uppercase',
+    letterSpacing: 1.2,
   },
   title: {
-    fontSize: 26,
-    fontWeight: '700',  // Semi-bold
-    color: '#5e35b1',  // Morado
-    marginBottom: 20,
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#0d47a1',
+    marginBottom: 28,
     textAlign: 'center',
-    letterSpacing: 0.5,
-    textShadowColor: 'rgba(93, 64, 155, 0.2)',  // Sombra sutil
-    textShadowOffset: { width: 1, height: 1 },
+    letterSpacing: 1.1,
   },
   headerText: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: '600',
-    color: '#7e57c2',  // Morado medio
-    marginBottom: 10,
+    color: '#1976d2',
+    marginBottom: 12,
     textAlign: 'center',
-    fontFamily: 'sans-serif-condensed',  // Tipografía alternativa (si la app lo soporta)
   },
-  texto2: {
-    color: '#7986cb',  // Morado azulado
+  texto2:{
+    color: '#50a3d2',
     textAlign: 'center',
-    marginBottom: 16,
-    marginHorizontal: 24,
-    lineHeight: 20,
-    fontSize: 13,  // Más pequeño
+    marginBottom: 20,
+    marginRight: 20,
+    marginLeft: 20,
   },
-  secondaryButton: {
-    margin: 60,
-    backgroundColor: 'transparent',
-    borderWidth: 1,
-    borderColor: '#7e57c2',
-    padding: 10,
+  button:{
+    margin:100,
   }
 });
