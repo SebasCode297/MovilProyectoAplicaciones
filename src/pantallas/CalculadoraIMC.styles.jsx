@@ -119,3 +119,7 @@ floatingDecoration: {
     transform: [{ rotate: '15deg' }],  // Decoración también inclinada
 },
 });
+
+///hollaaaaa
+//////que suene ese bolero tristee , boelro triste
+/////bolero trsites rokolo
