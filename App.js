@@ -21,7 +21,7 @@ export default function App() {
         <Stack.Screen
           name="CalculadoraIMC"
           component={CalculadoraIMC}
-          options={{ title: "Calculadora IMC" }}
+          options={{ title: "CalculadoraIMC" }}
         />
       </Stack.Navigator>
     </NavigationContainer>
