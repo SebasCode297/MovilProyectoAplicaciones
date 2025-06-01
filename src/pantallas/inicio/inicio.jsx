@@ -17,9 +17,15 @@ export const Inicio = ({ navigation }) => {
         Esta herramienta te ayudará a conocer si tu peso está en un rango saludable.
       </Text>
       <TouchableOpacity
-        style={styles.button}
+        style={[styles.button, { marginBottom: 15 }]}
         onPress={() => navigation.navigate('CalculadoraIMC')}>
         <Text style={styles.buttonText}>Ir a Calculadora IMC</Text>
+      </TouchableOpacity>
+      
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigation.navigate('ConsumoAPI')}>
+        <Text style={styles.buttonText}>Ir a ConsumoApi </Text>
       </TouchableOpacity>
     </View>
   );
